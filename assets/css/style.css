@@ -1,0 +1,175 @@
+/*css style consolidation */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+.profile-small {height: 300px; width: 300px;
+
+}
+
+header {
+    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #66aaf8;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+#about-me {padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-style: solid;
+
+}
+
+#module-one-challenge {
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+    margin: 10px;
+    border-color: aquamarine;
+}
+
+
+.img { 
+background-image: url(/assets/images/challengeyourself.jfif);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+a:hover{
+    font-size: 180%;
+  box-shadow: 0 0 10px #000 inset;
+  border-color: red;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.projects{flex: 3;
+    
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left
+}
+
+.projects:hover{
+    border-color: red;
+
+}
+
+
+.card {
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+    margin: 10px;
+    border-color: aquamarine;
+  }
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    color: black;
+    font-size:xx-large;
+}
+
+
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+#bio {margin-bottom: 150px;
+    
+    margin-top: 60px;
+    text-align: center;
+}
+
+  
+    #contact-me {
+        margin-top: 540px;
+        text-align: center;
+    }
+    .benefit {text-align: center
+        
+    }
+    .contact-info {
+    display: inline-block;
+    font-size: 48px;
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+    }
