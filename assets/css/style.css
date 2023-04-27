@@ -4,13 +4,18 @@
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
+
 
 body {
     background-color: gray;
 }
 
-.profile-small {height: 300px; width: 300px;
+.profile-small {
+    height: 200x; 
+    width: 200px;
+    border-radius: 20%;
 
 }
 
@@ -19,6 +24,11 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #66aaf8;
     color: #ffffff;
+    padding: 0;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+        align-items: center;
 }
 
 header h1 {
@@ -47,6 +57,7 @@ header nav ul li {
 a {
     color: #ffffff;
     text-decoration: none;
+    
 }
 
 p {
@@ -68,15 +79,18 @@ p {
     flex: 0 0 400px;
     margin: 10px;
     border-color: aquamarine;
+    color: red;
 }
 
 
-.img { 
-background-image: url(/assets/images/challengeyourself.jfif);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-}
+.background-img { 
+    background-image: url(../images/ocean-waves-1000x675-1000x675.jpg);
+    background-size: 600px;
+    background-position: center;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 
 a:hover{
     font-size: 180%;
@@ -158,7 +172,7 @@ footer h2 {
 
   
     #contact-me {
-        margin-top: 540px;
+        margin-top: 900px;
         text-align: center;
     }
     .benefit {text-align: center
@@ -173,3 +187,43 @@ footer h2 {
     font-size: 20px;
 
     }
+
+
+   
+    @media screen and (max-width:1015px){
+     header nav{
+        padding-top: 0;
+        margin-right: 0;
+     }
+     header nav ul li{
+        margin-left: 15px;
+     }
+     }
+
+    @media screen and (max-width:1000px){
+        h1{
+         color: blue;
+        } 
+     }
+     @media screen and (max-width: 750px){
+       header{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+        align-items: center;
+      
+        
+       } 
+     }
+     @media screen and (max-width: 799px){
+        aside{
+         padding: 0;
+         display: flex;
+         flex-direction: column;
+        justify-content: center;
+         align-items: center;
+       
+         
+        } 
+      }
