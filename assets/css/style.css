@@ -75,7 +75,7 @@ p {
     border-style: solid;
     border-width: 10px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 60px;
     flex: 0 0 400px;
     margin: 10px;
     border-color: aquamarine;
@@ -111,7 +111,25 @@ a:hover{
 main {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-heading {
+    width: 20%;
+}
+
+.section-content {
+    width: 80%;
 }
 
 .projects{flex: 3;
@@ -179,7 +197,7 @@ footer h2 {
         
     }
     .contact-info {
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 48px;
     padding-top: 15px;
     margin-right: 20px;
@@ -200,11 +218,7 @@ footer h2 {
      }
      }
 
-    @media screen and (max-width:1000px){
-        h1{
-         color: blue;
-        } 
-     }
+   
      @media screen and (max-width: 750px){
        header{
         padding: 0;
@@ -223,6 +237,7 @@ footer h2 {
          flex-direction: column;
         justify-content: center;
          align-items: center;
+         position: static;
        
          
         } 
