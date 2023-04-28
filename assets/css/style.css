@@ -1,4 +1,3 @@
-/*css style consolidation */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -189,15 +188,10 @@ footer h2 {
 }
 
   
-    #contact-me {
-        margin-top: 900px;
-        text-align: center;
-    }
     .benefit {text-align: center
         
     }
     .contact-info {
-    /* display: inline-block; */
     font-size: 48px;
     padding-top: 15px;
     margin-right: 20px;
