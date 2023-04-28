@@ -36,3 +36,5 @@ I have experience with the following programming languages, frameworks, and tool
 **Contact**
 
 If you have any questions or would like to get in touch with me, please feel free to reach out via email: manthonyamaro@yahoo.com.
+
+Criteria Note: Link for placeholders use Pre-work-study to fulfill requirement
